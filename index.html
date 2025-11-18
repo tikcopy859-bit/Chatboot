@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini AI Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'bkg-light': '#FFFFFF',
+              'content-light': '#F0F2F5',
+              'primary-light': '#007AFF',
+              'text-primary-light': '#0D0D0D',
+              'text-secondary-light': '#65676B',
+
+              'bkg-dark': '#18191A',
+              'content-dark': '#242526',
+              'primary-dark': '#0E86D4',
+              'text-primary-dark': '#E4E6EB',
+              'text-secondary-dark': '#B0B3B8',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-bkg-light dark:bg-bkg-dark">
+    <div id="root"></div>
+  </body>
+</html>

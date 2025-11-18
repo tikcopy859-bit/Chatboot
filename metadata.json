@@ -1,0 +1,7 @@
+{
+  "name": "Gemini AI Chatbot",
+  "description": "An AI-powered chatbot using Gemini for responses, featuring text-to-speech with voice customization, speech-to-text via microphone, and a dark/light theme toggle.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
